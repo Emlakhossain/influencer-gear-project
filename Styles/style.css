@@ -1,0 +1,82 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    border: 0;
+  
+
+}
+/* menu bar styles start  */
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 87px;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.influener-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.influence-title{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.infulence-title-container{
+    width: 582px;
+    height: 270px;
+    margin-left: 113px;
+    margin-top: 112px;
+}
+.info-btn{
+    background-color: #e92d4d;
+    padding: 12px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.info-btn:hover{
+    cursor: pointer;
+    transition:calc(30deg);
+}
+.infulence-img-container{
+    width: 440px;
+    height: 414px;
+    margin-right: 165px;
+    padding-left: 140px;
+    margin-top: 87px;
+}
+.infulence-img-container img{
+   
+}
+/* logos section styles  */
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    padding: 25px;
+    margin-top: 203px;
+}
+.populers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.populer{
+    
+    justify-content: center;
+    align-items: center; 
+}
