@@ -21,6 +21,12 @@ body{
     text-decoration: none;
     color: black;
     margin-left: 20px;
+    
+}
+.menu-bar a:hover{
+    color: #e92d4d;
+    
+    
 }
 .influener-container{
     display: flex;
@@ -193,4 +199,52 @@ body{
 .footer-section a:hover{
     color: white;
 
+}
+/* Media Queris */
+
+/* For mobile devices */
+@media only screen and (max-width:688px) {
+    .menu-bar{
+        width: 100%;
+    }
+    .menu-bar{
+      grid-template-columns: repeat(1, 1fr);
+      flex-direction: column;
+
+    }
+    .influener-container{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+    .logos{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    .populer-container{
+        width: 100%;
+       
+    }
+    .populers{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        
+    }
+    .customer-feedback-container{
+        width: 100%;
+    }
+    .feedback-container{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    .offer-section{
+        width: 100%;
+    }
+    .seecial-offer-container{
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    .footer-section{
+        width: 100%;
+    }
 }
