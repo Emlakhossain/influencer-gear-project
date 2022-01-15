@@ -48,6 +48,7 @@ body{
 .info-btn:hover{
     cursor: pointer;
     transform: scale(1.2);
+    transition: transform 2s ease-in-out;
 }
 .infulence-img-container{
     width: 440px;
@@ -57,6 +58,7 @@ body{
     margin-top: 87px;
     overflow: hidden;
 }
+
 .infulence-img-container:hover{
     transform: scale(1.2);
     transition: transform 2s ease-in-out;
@@ -127,6 +129,10 @@ body{
     justify-content: center;
     align-items: center;
     
+    
+}
+.see-more:hover{
+   cursor: pointer;
 }
 .see-more a{
     text-decoration: none;
@@ -143,14 +149,34 @@ body{
 .customer-feedback{
     box-shadow: 5px 5px 5px 5px gray;
     text-align: center;
-    width: 280px;
-    height: 180px;
+    width: 220px;
+    height: 140px;
+    /* margin-right: 40px; */
     margin-top: 140px;
     margin-bottom: 140px;
     border-radius: 5px;
     background-color: white;
     padding-top: 40px;
     border: none;
+}
+.seecial-offer-container{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+.offer-content{
+    justify-content: center;
+    width: 610px;
+    height: 224px;
+    padding-right: 20px;
+}
+.offer-container{
+    width: 440px;
+    height: 270px;
+    padding-left: 20px;
 }
 .footer-section{
     background-color: #0A0826;
