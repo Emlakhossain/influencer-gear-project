@@ -47,7 +47,7 @@ body{
 }
 .info-btn:hover{
     cursor: pointer;
-    transition:calc(30deg);
+    transform: scale(1.2);
 }
 .infulence-img-container{
     width: 440px;
@@ -55,9 +55,13 @@ body{
     margin-right: 165px;
     padding-left: 140px;
     margin-top: 87px;
+    overflow: hidden;
 }
-.infulence-img-container img{
-   
+.infulence-img-container:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+    cursor: pointer;
+    
 }
 /* logos section styles  */
 .logos{
@@ -79,7 +83,7 @@ body{
     grid-column-gap: 10px;
     margin-left: 264px;
     margin-right: 129px;
-    background-color: #cfc4c4;
+    background-color: whitesmoke;
     border-radius: 5px;
     margin-bottom: 50px;
     
@@ -127,4 +131,40 @@ body{
 .see-more a{
     text-decoration: none;
     color: #E02C6D;
+}
+.feedback-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+.customer-feedback{
+    box-shadow: 5px 5px 5px 5px gray;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 40px;
+    border: none;
+}
+.footer-section{
+    background-color: #0A0826;
+    height: 239px;
+    color:  #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.footer-section a{
+    margin-right: 20px;
+     color: #E02C6D;;
+}
+.footer-section a:hover{
+    color: white;
+
 }
